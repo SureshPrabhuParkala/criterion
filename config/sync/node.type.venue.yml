@@ -1,0 +1,18 @@
+uuid: 55dfae34-1d4c-408a-8808-31dd53eebf31
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Venue
+type: venue
+description: 'Add new Venue'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

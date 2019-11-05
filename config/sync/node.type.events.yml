@@ -1,0 +1,18 @@
+uuid: 9180eef9-95d3-407b-8023-875e5b9a22ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Events
+type: events
+description: 'Add new Events'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

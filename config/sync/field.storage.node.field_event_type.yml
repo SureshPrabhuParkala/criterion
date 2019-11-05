@@ -1,0 +1,30 @@
+uuid: 3668c284-bf91-42b8-b4e1-ff8b4a52a3e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_event_type
+field_name: field_event_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Charity
+      label: Charity
+    -
+      value: 'Fund Riser'
+      label: 'Fund Riser'
+    -
+      value: other
+      label: other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

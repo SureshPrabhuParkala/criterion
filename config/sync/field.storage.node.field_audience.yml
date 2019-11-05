@@ -1,0 +1,30 @@
+uuid: 37b64f46-7c4c-4755-b94e-b0f3e0cf9db0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_audience
+field_name: field_audience
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Marketing
+      label: Marketing
+    -
+      value: 'Free Lancing'
+      label: 'Free Lancing'
+    -
+      value: 'Data Mining'
+      label: 'Data Mining'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

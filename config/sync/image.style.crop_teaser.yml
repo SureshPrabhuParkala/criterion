@@ -1,0 +1,20 @@
+uuid: b1248285-18fc-437e-b229-9d7b881bd547
+langcode: en
+status: true
+dependencies: {  }
+name: crop_teaser
+label: crop-teaser
+effects:
+  a21c3b91-4f1c-4b65-a69e-c0fb7741e2d4:
+    uuid: a21c3b91-4f1c-4b65-a69e-c0fb7741e2d4
+    id: image_desaturate
+    weight: 1
+    data: {  }
+  a918d67f-7f32-45d1-8df1-2823d2fb76c0:
+    uuid: a918d67f-7f32-45d1-8df1-2823d2fb76c0
+    id: image_crop
+    weight: 2
+    data:
+      width: 350
+      height: 250
+      anchor: center-center

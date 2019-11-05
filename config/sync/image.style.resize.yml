@@ -1,0 +1,14 @@
+uuid: 49c8f2c7-39e3-45ca-b5b2-9b97f08ced3a
+langcode: en
+status: true
+dependencies: {  }
+name: resize
+label: resize
+effects:
+  49e8af59-a119-4a54-8749-9d29add02fca:
+    uuid: 49e8af59-a119-4a54-8749-9d29add02fca
+    id: image_resize
+    weight: 1
+    data:
+      width: 650
+      height: 450

@@ -1,0 +1,18 @@
+uuid: ed879dad-ecdc-4ada-9e9e-c26d8c23f8d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_paid
+field_name: field_paid
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
