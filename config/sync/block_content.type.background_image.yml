@@ -1,0 +1,8 @@
+uuid: e8dbc2b9-e03c-4831-8467-ddb54cc8d719
+langcode: en
+status: true
+dependencies: {  }
+id: background_image
+label: 'background Image'
+revision: 0
+description: ''

@@ -1,0 +1,25 @@
+uuid: 32c133f9-8618-4445-84b2-cecae35dd680
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.side-menu
+  module:
+    - system
+  theme:
+    - bartik
+id: sidemenu
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:side-menu'
+settings:
+  id: 'system_menu_block:side-menu'
+  label: 'Side Menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
